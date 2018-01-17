@@ -7,8 +7,7 @@ class Actor < ActiveRecord::Base
   end
 
   def list_roles
-    self.characters.collect do |character|
-      puts "#{character.name}"
+          puts "#{self.characters[0].name}"
     end
   end
 

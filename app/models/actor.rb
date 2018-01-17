@@ -12,5 +12,6 @@ class Actor < ActiveRecord::Base
       characters.show.name
     binding.pry
   end
+  end
 
 end

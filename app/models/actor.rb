@@ -8,7 +8,6 @@ class Actor < ActiveRecord::Base
 
   def list_roles
           puts "#{self.characters[0].name}"
-    end
-  end
+      end
 
 end
